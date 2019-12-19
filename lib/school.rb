@@ -10,7 +10,7 @@ class School
    if self.roster[num]
      self.roster[num] << [name]
    else
-     @roster[num] = [name]
+     self.roster[num] = [name]
    end 
    
    
