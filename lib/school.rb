@@ -19,7 +19,7 @@ class School
    end 
    
    def sort
-     self.roster.collect {|student, grade| student.sort!.to_s}
+     self.roster.collect {|student, grade| student.to_s.sort!}
    end 
 
 end 
