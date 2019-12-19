@@ -10,7 +10,9 @@ class School
     @roster
   end 
   
-  def add_student(student)
+  def add_student(student, num)
+    @roster[num] = []
+    @roster[num] << student
     
   end 
   
