@@ -7,8 +7,8 @@ class School
   end
   
   def add_student(student, num)
-   if @roster[num]
-     @roster[num] << [name]
+   if self.roster[num]
+     self.roster[num] << [name]
    else
      @roster[num] = [name]
    end 
