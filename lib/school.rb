@@ -13,7 +13,7 @@ class School
   #   @roster[grade] = [name]
   # end 
   self.roster[grade] ||= []
-  self.roster[grade] << [name]
+  self.roster[grade] << name
    end 
    
    def grade(grade)
